@@ -1,5 +1,5 @@
 # Little Things: Online Clothing Shopping Website Project
-This repository is a final project of **Database Programming, 2019 Spring** in NCUE CSIE
+This repository is a final project of **Database Programming, 2019 Spring** in NCUE CSIE.
 
 ## Author
 
@@ -8,6 +8,7 @@ This repository is a final project of **Database Programming, 2019 Spring** in N
 | yxuan0329      | 資管二| S0661124   | 梁芸瑄|
 
 <br>
+
 ## How To Use?
 - Clone this repository or download as a zip file
 - Incase you downloaded as a zip, unzip it
@@ -17,22 +18,44 @@ This repository is a final project of **Database Programming, 2019 Spring** in N
 - Done! Now you can surf the clothing website by entering http://localhost/index.php .
 
 ##  Introduction
-本網站主要販售女性服裝為主，使用者可以在本站瀏覽商品並放入購物車，註冊會員並登入成功之後便可將購物車內商品結帳，再輸入收件人資訊後即可完成商品訂單。
+Little Things is a clothing shopping website for young girls. You can browse clothing items and put anything in shopping cart and shop online.
 
-輸入表單及個人資料時均會透過jQuery表單驗證，驗證成功後才可送出資料，並儲存至資料庫中。此外，網站以簡約的淺色設計及排版，讓使用者瀏覽時更加舒適易讀且更加符合使用者體驗。
-  
+
+<br>
+
 ## System Design
+There are 4 main features in this system:
+### 1. 3 User Level
+There are 3 different kinds of user level in the website, general user, member and admin. Only those who had registered and login as member can shop online. The admin is able to manage the member information and item information.
 
-2.1.1 使用者分級
-網頁使用者共分三個等級：訪客、會員、管理者。
-三者均可以自由瀏覽網頁，會員與管理者可以結帳產生購物訂單，唯有管理者可以管理會員、商品、留言、訂單資訊。
 
-2.1.2 商品管理
-商品置於資料表product中，內容包含商品的文字、數據、圖片資訊。可以在網頁查看商品尺寸資訊、模特兒穿搭照片、會員即時評價等。
+### 2. Product Management
+Every item product is recorded in datatable 'product', including the image, sizes, comments and description of each product.
 
-2.1.3 購物車與訂單
-將商品放入購物車之後，可以結帳並產生訂單。於網路結帳享有好禮三選一之服務，單筆未滿500元須自付運費60元，滿1500元送限量文青帆布袋。訂單成立後會清空購物車，再導引使用者至首頁。
 
-2.1.4 留言板
-會員可以留言，及時反映消費疑問。
-若想針對商品給予評價，亦可透過商品網頁下方的連結給予即時回饋。
+### 3. Shopping Cart
+For each member in our website, they can put any item in shopping cart and shop online. 
+
+### 4. Comments
+For each users, they are free to share their comments below every item.
+
+
+## Demo
+- Homepage : Little Things
+![image](https://user-images.githubusercontent.com/46278823/161424719-61dbf623-eb15-4c3d-a4ab-f6063511beab.png)
+
+- Member Login and Register
+![image](https://user-images.githubusercontent.com/46278823/161424725-6619e8bd-a3b4-4495-b86c-17af0eca26f6.png)
+![image](https://user-images.githubusercontent.com/46278823/161424735-d7a340a9-d850-42c2-8fc4-fbae554a1557.png)
+
+- Item Page
+![image](https://user-images.githubusercontent.com/46278823/161424741-180a36b7-b5fb-45b4-9e51-82daac266b59.png)
+![image](https://user-images.githubusercontent.com/46278823/161424848-455c34e7-6032-4f68-ba87-41c1bc4d8868.png)
+
+- Comments
+![image](https://user-images.githubusercontent.com/46278823/161424861-83878e9c-41af-4f12-9022-2d76e146d7f2.png)
+
+- Shopping Cart
+![image](https://user-images.githubusercontent.com/46278823/161424876-5601c3ac-1d6a-4a8e-bf45-3c72c084a397.png)
+![image](https://user-images.githubusercontent.com/46278823/161424892-7afe53f9-8b24-45b2-91dc-254d1a3994e0.png)
+

@@ -1,11 +1,18 @@
-# Clothing Shopping Website Project
-大二專題：線上購物系統
-##  1. 前言
+# Little Things: Online Clothing Shopping Website Project
+This repository is a final project of **Database Programming, 2019 Spring** in NCUE CSIE
+
+## Author
+
+| GitHub Account | Class | Student ID | Name |
+| -------------- | ------|------------| ---- |
+| yxuan0329      | 資管二| S0661124   | 梁芸瑄|
+
+##  1. Introduction
 本網站主要販售女性服裝為主，使用者可以在本站瀏覽商品並放入購物車，註冊會員並登入成功之後便可將購物車內商品結帳，再輸入收件人資訊後即可完成商品訂單。
 
-輸入表單及個人資料時均會透過jQuery表單驗證，驗證成功後才可送出資料，並儲存至資料庫中。此外，網站以簡約的淺色設計及排版，讓使用者瀏覽時更加舒適易讀。
+輸入表單及個人資料時均會透過jQuery表單驗證，驗證成功後才可送出資料，並儲存至資料庫中。此外，網站以簡約的淺色設計及排版，讓使用者瀏覽時更加舒適易讀且更加符合使用者體驗。
   
-## 2. 系統設計與功能
+## 2. System Design
 
 2.1.1 使用者分級
 網頁使用者共分三個等級：訪客、會員、管理者。
